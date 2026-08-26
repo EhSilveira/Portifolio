@@ -1,8 +1,10 @@
 {
-  "rewrites": [
-    { "source": "/dev", "destination": "/dev.html" },
-    { "source": "/dados", "destination": "/dados.html" },
-    { "source": "/curriculo-dev", "destination": "/curriculo.html" },
-    { "source": "/curriculo-dados", "destination": "/curriculo-dados.html" }
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/dev", "destination": "/", "permanent": true },
+    { "source": "/dados", "destination": "/", "permanent": true },
+    { "source": "/curriculo-dev", "destination": "/curriculo", "permanent": true },
+    { "source": "/curriculo-dados", "destination": "/curriculo", "permanent": true }
   ]
 }
