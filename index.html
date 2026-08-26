@@ -5,181 +5,160 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Portfólio de Ernani Silveira — Desenvolvimento de Software, Dados, BI e Automação." />
   <meta name="theme-color" content="#08111f" />
-  <link rel="canonical" href="https://ernani.useinfotec.com.br/" />
-  <meta property="og:title" content="Ernani Silveira | Desenvolvimento de Software • Dados & BI" />
-  <meta property="og:description" content="Experiência corporativa em dados e BI combinada com desenvolvimento de produtos SaaS reais." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://ernani.useinfotec.com.br/" />
-  <title>Ernani Silveira | Desenvolvimento de Software • Dados & BI</title>
+  <title>Ernani Silveira | Software • Data & BI</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="tracks.css" />
 </head>
 <body>
-  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
-  <header class="site-header" id="topo">
-    <div class="container nav-wrap">
-      <a class="brand" href="#topo" aria-label="Início">ES<span>.</span></a>
-      <nav class="nav" aria-label="Navegação principal">
-        <a href="#perfil">Perfil</a>
-        <a href="#dados">Dados & BI</a>
-        <a href="#projetos">Projetos</a>
-        <a href="#experiencia">Experiência</a>
-        <a href="#alem">Além do código</a>
-      </nav>
-      <a class="button button-sm button-outline" href="curriculo.html">Currículo</a>
+<a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+<header class="site-header" id="topo">
+  <div class="container nav-wrap">
+    <a class="brand" href="#topo" aria-label="Início">ES<span>.</span></a>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#perfil" data-i18n="navProfile">Perfil</a>
+      <a href="#dados" data-i18n="navData">Dados & BI</a>
+      <a href="#ferramentas" data-i18n="navTools">Ferramentas</a>
+      <a href="#projetos" data-i18n="navProjects">Projetos</a>
+      <a href="#experiencia" data-i18n="navExperience">Experiência</a>
+      <a href="#alem" data-i18n="navAbout">Além do código</a>
+    </nav>
+    <div class="lang-switch" aria-label="Language switcher">
+      <button class="lang-btn active" data-lang="pt">PT</button>
+      <button class="lang-btn" data-lang="en">EN</button>
     </div>
-  </header>
-
-  <main id="conteudo">
-    <section class="hero section">
-      <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">TECNOLOGIA • SOFTWARE • DADOS • AUTOMAÇÃO</p>
-          <h1>Ernani<br />Silveira.</h1>
-          <p class="hero-title">Desenvolvimento de Software • Dados & BI</p>
-          <p class="hero-copy">Profissional de tecnologia com experiência corporativa desde 2021 e atuação prática em <strong>SQL, Power BI, Python, modelagem de dados, automação e desenvolvimento de aplicações SaaS</strong>. Uma base técnica única para transformar problemas de negócio em dados, processos e software.</p>
-          <div class="hero-actions">
-            <a class="button" href="#perfil">Conhecer meu perfil</a>
-            <a class="button button-outline" href="curriculo.html">Ver currículo</a>
-          </div>
-          <div class="social-links">
-            <a href="https://github.com/EhSilveira" target="_blank" rel="noreferrer">GitHub ↗</a>
-            <a href="https://www.linkedin.com/in/ernani-silveira-6a4647161" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-            <a href="mailto:ernanisilveira19@gmail.com">E-mail</a>
-          </div>
+    <a class="button button-sm button-outline" href="curriculo.html" data-i18n="resumeBtn">Currículo</a>
+  </div>
+</header>
+<main id="conteudo">
+  <section class="hero section">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow" data-i18n="heroEyebrow">TECNOLOGIA • SOFTWARE • DADOS • AUTOMAÇÃO</p>
+        <h1>Ernani<br />Silveira.</h1>
+        <p class="hero-title" data-i18n="heroTitle">Desenvolvimento de Software • Dados & BI</p>
+        <p class="hero-copy" data-i18n="heroCopy">Profissional de tecnologia com experiência corporativa desde 2021 e atuação prática em <strong>SQL, Power BI, Python, modelagem de dados, automação e desenvolvimento de aplicações SaaS</strong>. Uma base técnica única para transformar problemas de negócio em dados, processos e software.</p>
+        <div class="hero-actions">
+          <a class="button" href="#perfil" data-i18n="heroCta1">Conhecer meu perfil</a>
+          <a class="button button-outline" href="curriculo.html" data-i18n="heroCta2">Ver currículo</a>
         </div>
-        <aside class="hero-card" aria-label="Resumo técnico">
-          <div class="status"><span></span> Buscando oportunidades remotas</div>
-          <p class="code-line"><span>const</span> profile = {</p>
-          <p class="code-line indent"><strong>software</strong>: ['React', 'TypeScript', 'APIs'],</p>
-          <p class="code-line indent"><strong>data</strong>: ['SQL', 'Power BI', 'Python'],</p>
-          <p class="code-line indent"><strong>database</strong>: ['PostgreSQL', 'Supabase'],</p>
-          <p class="code-line indent"><strong>analytics</strong>: ['DAX', 'ETL', 'Modelagem'],</p>
-          <p class="code-line indent"><strong>automation</strong>: ['n8n', 'Power Query'],</p>
-          <p class="code-line indent"><strong>delivery</strong>: ['GitHub', 'Vercel']</p>
-          <p class="code-line">};</p>
-        </aside>
-      </div>
-    </section>
-
-    <section class="section section-soft" id="perfil">
-      <div class="container">
-        <p class="eyebrow">PERFIL PROFISSIONAL</p>
-        <h2>Duas competências que se complementam.</h2>
-        <div class="tracks-grid">
-          <article class="track-card">
-            <span class="track-icon">01</span>
-            <p class="eyebrow">DESENVOLVIMENTO DE SOFTWARE</p>
-            <h3>Produtos web e SaaS</h3>
-            <p>Construção e evolução de aplicações reais, passando por interface, regras de negócio, autenticação, banco de dados, APIs, arquitetura multiempresa e deploy.</p>
-            <div class="tags tags-light"><span>React</span><span>TypeScript</span><span>Next.js</span><span>Supabase</span><span>PostgreSQL</span><span>Vercel</span></div>
-          </article>
-          <article class="track-card">
-            <span class="track-icon">02</span>
-            <p class="eyebrow">DADOS & BUSINESS INTELLIGENCE</p>
-            <h3>Analytics e decisão</h3>
-            <p>Experiência profissional com SQL, Power BI, DAX, Power Query, Python, ETL, modelagem, indicadores e validação de regras de negócio em ambientes corporativos.</p>
-            <div class="tags tags-light"><span>SQL</span><span>Power BI</span><span>DAX</span><span>Python</span><span>ETL</span><span>Power Query</span></div>
-          </article>
+        <div class="social-links">
+          <a href="https://github.com/EhSilveira" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/ernani-silveira-6a4647161" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="mailto:ernanisilveira19@gmail.com">E-mail</a>
         </div>
       </div>
-    </section>
+      <aside class="hero-card" aria-label="Resumo técnico">
+        <div class="status"><span></span> <span data-i18n="statusText">Buscando oportunidades remotas</span></div>
+        <p class="code-line"><span>const</span> profile = {</p>
+        <p class="code-line indent"><strong>software</strong>: ['React', 'TypeScript', 'APIs'],</p>
+        <p class="code-line indent"><strong>data</strong>: ['SQL', 'Power BI', 'Python'],</p>
+        <p class="code-line indent"><strong>database</strong>: ['PostgreSQL', 'Supabase'],</p>
+        <p class="code-line indent"><strong>analytics</strong>: ['DAX', 'Cohort', 'KPIs'],</p>
+        <p class="code-line indent"><strong>automation</strong>: ['n8n', 'ETL', 'Excel'],</p>
+        <p class="code-line indent"><strong>delivery</strong>: ['GitHub', 'Vercel']</p>
+        <p class="code-line">};</p>
+      </aside>
+    </div>
+  </section>
 
-    <section class="section" id="dados">
-      <div class="container">
-        <div class="section-heading">
-          <div><p class="eyebrow">DADOS & BI</p><h2>Da consulta SQL à decisão de negócio.</h2></div>
-          <p>Minha base em dados é profissional e corporativa. Trabalho com indicadores, modelagem, consultas, automações e regras de negócio sem expor informações internas ou confidenciais das empresas.</p>
-        </div>
-        <div class="focus-list">
-          <article class="focus-card"><h3>Business Intelligence</h3><p>Power BI, DAX, dashboards, KPIs, storytelling de dados e modelagem dimensional.</p></article>
-          <article class="focus-card"><h3>SQL & Modelagem</h3><p>SQL, Teradata, PostgreSQL, bases relacionais, transformação, validação e análise de dados.</p></article>
-          <article class="focus-card"><h3>ETL & Automação</h3><p>Power Query, Python, APIs, n8n e automações para reduzir tarefas manuais e integrar fontes.</p></article>
-          <article class="focus-card"><h3>Visão de Produto</h3><p>Experiência com software ajuda a entender como dados são gerados, armazenados, protegidos e consumidos pelas aplicações.</p></article>
-        </div>
+  <section class="section section-soft" id="perfil">
+    <div class="container">
+      <p class="eyebrow" data-i18n="profileEyebrow">PERFIL PROFISSIONAL</p>
+      <h2 data-i18n="profileTitle">Software, dados e automação trabalhando juntos.</h2>
+      <div class="tracks-grid">
+        <article class="track-card"><span class="track-icon">01</span><h3 data-i18n="card1Title">Desenvolvimento de software</h3><p data-i18n="card1Text">Construção e evolução de aplicações reais, passando por interface, regras de negócio, autenticação, banco de dados, APIs, arquitetura multiempresa e deploy.</p></article>
+        <article class="track-card"><span class="track-icon">02</span><h3 data-i18n="card2Title">Dados & Business Intelligence</h3><p data-i18n="card2Text">Experiência profissional com SQL, Power BI, DAX, Power Query, Python, ETL, análises executivas, indicadores, análises por safra/coorte e validação de regras de negócio.</p></article>
+        <article class="track-card"><span class="track-icon">03</span><h3 data-i18n="card3Title">Automação & integrações</h3><p data-i18n="card3Text">Workflows com n8n e integrações com APIs, Excel e banco de dados para apoiar funis comerciais, onboarding, atualização de status, ETL e ingestão conforme o padrão da empresa.</p></article>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="section section-soft" id="projetos">
-      <div class="container">
-        <div class="section-heading">
-          <div><p class="eyebrow">PROJETOS REAIS</p><h2>Software aplicado a problemas reais.</h2></div>
-          <p>Os produtos possuem código-fonte privado por segurança e propriedade intelectual. O portfólio apresenta a dor, solução, tecnologias, arquitetura e somente os ambientes públicos de produção.</p>
-        </div>
-        <div class="projects-grid projects-grid-light">
-          <article class="case-light">
-            <span class="pill pill-blue">SaaS • Produção</span>
-            <h3>PedidosPro</h3>
-            <p><strong>Dor:</strong> restaurantes operam pedidos, salão, cardápio, clientes, estoque e financeiro em processos separados.</p>
-            <p><strong>Solução:</strong> ERP SaaS multiempresa que centraliza operação, pedidos, comandas, cardápio digital, clientes, estoque, financeiro e relatórios.</p>
-            <div class="tags tags-light"><span>React 18</span><span>TypeScript</span><span>Vite</span><span>Supabase</span><span>PostgreSQL</span><span>RLS</span><span>Realtime</span></div>
-            <p><strong>Arquitetura:</strong> React/TypeScript → Supabase Auth/APIs/Realtime → PostgreSQL com RLS multi-tenant → Vercel.</p>
-            <a class="text-link-dark" href="https://pedidospro.useinfotec.com.br" target="_blank" rel="noreferrer">Ver produto em produção ↗</a>
-          </article>
-          <article class="case-light">
-            <span class="pill pill-blue">SaaS • Produção</span>
-            <h3>InfoLavagem</h3>
-            <p><strong>Dor:</strong> lava-rápidos e estética automotiva precisam controlar agenda, clientes, serviços, equipe, comissões e financeiro sem depender de planilhas e mensagens.</p>
-            <p><strong>Solução:</strong> plataforma multiempresa para clientes, serviços, agendamentos, funcionários, financeiro, comissões e relatórios.</p>
-            <div class="tags tags-light"><span>Next.js 16</span><span>React 19</span><span>TypeScript</span><span>Supabase</span><span>PostgreSQL</span><span>RLS</span></div>
-            <p><strong>Arquitetura:</strong> Next.js → Supabase Auth/Backend → PostgreSQL com isolamento por organização → Vercel.</p>
-            <a class="text-link-dark" href="https://infolavagem.useinfotec.com.br" target="_blank" rel="noreferrer">Ver produto em produção ↗</a>
-          </article>
-          <article class="case-light">
-            <span class="pill pill-blue">Hub • Produção</span>
-            <h3>ICN-HUB</h3>
-            <p><strong>Dor:</strong> informações operacionais e indicadores dispersos dificultam acompanhamento e tomada de decisão.</p>
-            <p><strong>Solução:</strong> hub web para centralizar informações, dashboards e rotinas em uma visão única.</p>
-            <div class="tags tags-light"><span>React 19</span><span>TypeScript</span><span>TanStack</span><span>Supabase</span><span>Recharts</span><span>Tailwind</span></div>
-            <p><strong>Arquitetura:</strong> TanStack Start/Router/Query → Supabase → componentes de visualização → Vercel.</p>
-            <a class="text-link-dark" href="https://icnhub.useinfotec.com.br" target="_blank" rel="noreferrer">Ver produto em produção ↗</a>
-          </article>
-        </div>
+  <section class="section" id="dados">
+    <div class="container">
+      <div class="section-heading">
+        <div><p class="eyebrow" data-i18n="dataEyebrow">DADOS & BI</p><h2 data-i18n="dataTitle">Da consulta SQL à decisão de negócio.</h2></div>
+        <p data-i18n="dataLead">Minha base em dados é profissional e corporativa. Trabalho com indicadores, modelagem, consultas, automações e regras de negócio sem expor informações internas ou confidenciais das empresas.</p>
       </div>
-    </section>
-
-    <section class="section" id="experiencia">
-      <div class="container">
-        <div class="section-heading">
-          <div><p class="eyebrow">EXPERIÊNCIA</p><h2>Experiência corporativa em tecnologia desde 2021.</h2></div>
-          <p>A experiência profissional em dados fortalece meu desenvolvimento de software, enquanto os projetos de software ampliam minha visão sobre bancos, integrações, segurança e produtos orientados a dados.</p>
-        </div>
-        <div class="timeline timeline-dark">
-          <article class="timeline-item"><div class="timeline-date">28/07/2026 — atual</div><div><h3>Facta Financeira</h3><p class="role">Analista de BI Jr</p><p>Power BI, DAX, SQL, modelagem analítica, indicadores e validação de regras de negócio.</p></div></article>
-          <article class="timeline-item"><div class="timeline-date">ago/2024 — jul/2026</div><div><h3>Grupo Impulse</h3><p class="role">Analista de Dados</p><p>Power BI, SQL, Power Query, integrações, automações e análises aplicadas a CRM, operação e performance.</p></div></article>
-          <article class="timeline-item"><div class="timeline-date">abr/2021 — out/2023</div><div><h3>Sicredi</h3><p class="role">Analista Digital I / Estagiário de TI</p><p>SQL/Teradata, Python, automação, indicadores, tratamento de dados e processos em ambiente corporativo.</p></div></article>
-          <article class="timeline-item"><div class="timeline-date">Experiência anterior</div><div><h3>Lidya • Tecnopuc</h3><p class="role">Suporte N1 e Operações com IA</p><p>Suporte técnico, triagem de incidentes e operação de robôs de IA.</p></div></article>
-        </div>
+      <div class="focus-list">
+        <article class="focus-card"><h3 data-i18n="focus1Title">Dashboards executivos</h3><p data-i18n="focus1Text">Criação de dashboards para vendas, novos canais, produtos, operação e visão executiva.</p></article>
+        <article class="focus-card"><h3 data-i18n="focus2Title">Análises avançadas</h3><p data-i18n="focus2Text">Análises por safra/coorte, funis, performance por canal e leitura gerencial do negócio.</p></article>
+        <article class="focus-card"><h3 data-i18n="focus3Title">ETL & ingestão</h3><p data-i18n="focus3Text">Extração via API, tratamento de dados, ETL e ingestão em banco de dados conforme padrões internos.</p></article>
+        <article class="focus-card"><h3 data-i18n="focus4Title">Automação comercial</h3><p data-i18n="focus4Text">Fluxos com n8n cobrindo entrada de leads, onboarding, atualizações de status e liberação de acesso à plataforma.</p></article>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="section section-soft">
-      <div class="container two-col">
-        <div><p class="eyebrow">FORMAÇÃO</p><h2>FADERGS</h2></div>
-        <div class="prose"><p><strong>Análise e Desenvolvimento de Sistemas</strong></p><p>Cursando, com conclusão prevista para <strong>dezembro de 2027</strong>.</p><p>Estudos e certificações em Python para Dados, Power BI, SQL, MySQL e ferramentas de análise e produtividade.</p></div>
+  <section class="section section-soft" id="ferramentas">
+    <div class="container">
+      <div class="section-heading">
+        <div><p class="eyebrow" data-i18n="toolsEyebrow">FERRAMENTAS & TECNOLOGIAS</p><h2 data-i18n="toolsTitle">Experiência prática nas ferramentas que geram resultado.</h2></div>
+        <p data-i18n="toolsLead">Abaixo estão algumas das principais tecnologias e ferramentas que melhor representam minha atuação profissional e meus projetos.</p>
       </div>
-    </section>
-
-    <section class="section" id="alem">
-      <div class="container two-col">
-        <div><p class="eyebrow">ALÉM DO CÓDIGO</p><h2>Curiosidade por tecnologia e paixão pela estrada.</h2></div>
-        <div class="prose-dark">
-          <p>Tenho interesse por tecnologia, inteligência artificial e automação, principalmente quando essas áreas são aplicadas para resolver problemas reais, simplificar processos e criar soluções úteis no dia a dia. Também gosto de desenvolver projetos próprios como forma de aprender, testar novas ideias e evoluir tecnicamente de maneira prática.</p>
-          <p>Fora da tecnologia, sou apaixonado por carros e passo um bom tempo cuidando do meu próprio carro, acompanhando manutenção e pensando em melhorias. Também gosto muito de viajar, especialmente de carro. Para mim, pegar a estrada traz uma sensação de liberdade, permite conhecer novos lugares e cria bons momentos de lazer com a família.</p>
-        </div>
+      <div class="tools-grid">
+        <article class="tool-card"><img src="assets/powerbi.svg" alt="Dashboard illustration" /><div class="tool-body"><h3 data-i18n="tool1Title">Power BI</h3><p data-i18n="tool1Text">Desenvolvimento de dashboards para diferentes setores, com foco em visão executiva, vendas, novos canais, produtos, KPIs e análises por safra/coorte.</p><div class="tool-meta"><span>Power BI</span><span>DAX</span><span>KPIs</span><span>Cohort</span></div></div></article>
+        <article class="tool-card"><img src="assets/n8n.svg" alt="Workflow illustration" /><div class="tool-body"><h3 data-i18n="tool2Title">n8n</h3><p data-i18n="tool2Text">Automação de workflows simples e robustos para operação de vendas de cursos: entrada de leads, onboarding, atualização de status, integração com Excel, APIs, banco de dados e acesso à plataforma.</p><div class="tool-meta"><span>n8n</span><span>Excel</span><span>API</span><span>Onboarding</span></div></div></article>
+        <article class="tool-card"><img src="assets/react.svg" alt="React illustration" /><div class="tool-body"><h3 data-i18n="tool3Title">React & TypeScript</h3><p data-i18n="tool3Text">Construção de interfaces modernas e responsivas para aplicações SaaS, com foco em componentes, experiência do usuário e manutenção.</p><div class="tool-meta"><span>React</span><span>TypeScript</span><span>UX</span><span>Frontend</span></div></div></article>
+        <article class="tool-card"><img src="assets/python_etl.svg" alt="ETL pipeline illustration" /><div class="tool-body"><h3 data-i18n="tool4Title">Python, ETL & APIs</h3><p data-i18n="tool4Text">Extração de dados, transformação, ingestão e automação de processos usando Python, APIs e rotinas de ETL.</p><div class="tool-meta"><span>Python</span><span>ETL</span><span>APIs</span><span>Automation</span></div></div></article>
+        <article class="tool-card"><img src="assets/sql.svg" alt="Database illustration" /><div class="tool-body"><h3 data-i18n="tool5Title">SQL & PostgreSQL</h3><p data-i18n="tool5Text">Consultas, modelagem relacional, views, métricas e organização de dados para apoiar operações, indicadores e software.</p><div class="tool-meta"><span>SQL</span><span>PostgreSQL</span><span>Modeling</span><span>Views</span></div></div></article>
+        <article class="tool-card"><img src="assets/supabase.svg" alt="Supabase illustration" /><div class="tool-body"><h3 data-i18n="tool6Title">Supabase</h3><p data-i18n="tool6Text">Auth, PostgreSQL, RLS e Realtime aplicados ao desenvolvimento de produtos multiempresa com regras de acesso e dados protegidos.</p><div class="tool-meta"><span>Supabase</span><span>Auth</span><span>RLS</span><span>Realtime</span></div></div></article>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="section cta-section">
-      <div class="container cta-card">
-        <div><p class="eyebrow">OPORTUNIDADES</p><h2>Busco minha próxima oportunidade remota em tecnologia.</h2><p>Tenho interesse em Desenvolvimento de Software e em Dados/BI, especialmente em posições onde software, SQL, analytics e automação se conectem para resolver problemas reais.</p></div>
-        <div class="cta-actions"><a class="button" href="curriculo.html">Abrir currículo</a><a class="button button-outline" href="mailto:ernanisilveira19@gmail.com">Contato</a></div>
+  <section class="section" id="projetos">
+    <div class="container">
+      <div class="section-heading">
+        <div><p class="eyebrow" data-i18n="projectsEyebrow">PROJETOS REAIS</p><h2 data-i18n="projectsTitle">Software aplicado a problemas reais.</h2></div>
+        <p data-i18n="projectsLead">Os produtos possuem código-fonte privado por segurança e propriedade intelectual. O portfólio apresenta a dor, solução, tecnologias, arquitetura e somente os ambientes públicos de produção.</p>
       </div>
-    </section>
-  </main>
+      <div class="projects-grid">
+        <article class="case-light"><span class="pill">SaaS • Produção</span><h3>PedidosPro</h3><p><strong>Dor:</strong> restaurantes operam pedidos, salão, cardápio, clientes, estoque e financeiro em processos separados.</p><p><strong>Solução:</strong> ERP SaaS multiempresa que centraliza operação, pedidos, comandas, cardápio digital, clientes, estoque, financeiro e relatórios.</p><div class="tags"><span>React 18</span><span>TypeScript</span><span>Supabase</span><span>PostgreSQL</span><span>RLS</span></div><p><strong>Arquitetura:</strong> React/TypeScript → Supabase Auth/APIs/Realtime → PostgreSQL com RLS multi-tenant → Vercel.</p><a class="text-link-dark" href="https://pedidospro.useinfotec.com.br" target="_blank" rel="noreferrer">Ver produto em produção ↗</a></article>
+        <article class="case-light"><span class="pill">SaaS • Produção</span><h3>InfoLavagem</h3><p><strong>Dor:</strong> lava-rápidos e estética automotiva precisam controlar agenda, clientes, serviços, equipe, comissões e financeiro sem depender de planilhas e mensagens.</p><p><strong>Solução:</strong> plataforma multiempresa para clientes, serviços, agendamentos, funcionários, financeiro, comissões e relatórios.</p><div class="tags"><span>Next.js</span><span>React</span><span>TypeScript</span><span>Supabase</span><span>PostgreSQL</span></div><p><strong>Arquitetura:</strong> Next.js → Supabase Auth/Backend → PostgreSQL com isolamento por organização → Vercel.</p><a class="text-link-dark" href="https://infolavagem.useinfotec.com.br" target="_blank" rel="noreferrer">Ver produto em produção ↗</a></article>
+        <article class="case-light"><span class="pill">Hub • Produção</span><h3>ICN-HUB</h3><p><strong>Dor:</strong> informações operacionais e indicadores dispersos dificultam acompanhamento e tomada de decisão.</p><p><strong>Solução:</strong> hub web para centralizar informações, dashboards e rotinas em uma visão única.</p><div class="tags"><span>React 19</span><span>TypeScript</span><span>TanStack</span><span>Supabase</span><span>Recharts</span></div><p><strong>Arquitetura:</strong> TanStack Start/Router/Query → Supabase → componentes de visualização → Vercel.</p><a class="text-link-dark" href="https://icnhub.useinfotec.com.br" target="_blank" rel="noreferrer">Ver produto em produção ↗</a></article>
+      </div>
+    </div>
+  </section>
 
-  <footer class="footer"><div class="container footer-wrap"><p>© <span id="year"></span> Ernani Silveira</p><p>Desenvolvimento de Software • Dados & BI • Automação</p></div></footer>
-  <script src="script.js"></script>
+  <section class="section section-soft" id="experiencia">
+    <div class="container">
+      <div class="section-heading">
+        <div><p class="eyebrow" data-i18n="expEyebrow">EXPERIÊNCIA</p><h2 data-i18n="expTitle">Experiência corporativa em tecnologia desde 2021.</h2></div>
+        <p data-i18n="expLead">Minha trajetória combina BI, dados, automação, suporte e desenvolvimento, unindo visão analítica com construção de software.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item"><div class="timeline-date">28/07/2026 — atual</div><div><h3>Facta Financeira</h3><p class="role" data-i18n="factaRole">Analista de BI Jr</p><ul><li data-i18n="factaB1">Desenvolvimento e evolução de dashboards e indicadores em Power BI, com medidas DAX, consultas SQL e validação de regras de negócio.</li><li data-i18n="factaB2">Atuação com análises para diferentes demandas de negócio, apoiando leitura executiva, acompanhamento operacional e tomada de decisão.</li></ul></div></article>
+        <article class="timeline-item"><div class="timeline-date">ago/2024 — jul/2026</div><div><h3>Grupo Impulse</h3><p class="role" data-i18n="impulseRole">Analista de Dados</p><ul><li data-i18n="impulseB1">Desenvolvimento de dashboards e análises para áreas como vendas, novos canais, produtos e visão executiva.</li><li data-i18n="impulseB2">Construção de análises por safra/coorte, performance por canal e indicadores gerenciais com Power BI, SQL e Power Query.</li><li data-i18n="impulseB3">Automação com n8n, atualização de status em Excel — ferramenta preferida pela empresa — extração via APIs, ETL e ingestão em banco de dados conforme padrões internos.</li></ul></div></article>
+        <article class="timeline-item"><div class="timeline-date">abr/2021 — out/2023</div><div><h3>Sicredi</h3><p class="role" data-i18n="sicrediRole">Analista Digital I / Estagiário de TI</p><ul><li data-i18n="sicrediB1">Experiência com SQL/Teradata, Python, automação, indicadores e tratamento de dados em ambiente corporativo com atenção à LGPD.</li></ul></div></article>
+        <article class="timeline-item"><div class="timeline-date">Experiência anterior</div><div><h3>Lidya • Tecnopuc</h3><p class="role" data-i18n="lidyaRole">Suporte N1 e Operações com IA</p><ul><li data-i18n="lidyaB1">Atuação com suporte técnico N1, triagem e resolução de incidentes, além de acompanhamento de robôs de IA.</li></ul></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="formacao">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow" data-i18n="infoEyebrow">FORMAÇÃO & IDIOMAS</p><h2 data-i18n="infoTitle">Base técnica em evolução contínua.</h2></div><p></p></div>
+      <div class="info-grid">
+        <article class="info-card"><h3 data-i18n="eduTitle">Formação</h3><p data-i18n="eduText"><strong>FADERGS — Análise e Desenvolvimento de Sistemas</strong><br>Cursando, com conclusão prevista para <strong>dezembro de 2027</strong>.<br><br>Estudos e certificações em Python para Dados, Power BI, SQL, MySQL e ferramentas de análise.</p></article>
+        <article class="info-card"><h3 data-i18n="langTitle">Idiomas</h3><p data-i18n="langText"><strong>Português:</strong> nativo.<br><strong>Inglês:</strong> nível técnico bom para leitura de documentação, escrita e pesquisa; oralidade/conversação básica.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-soft" id="alem">
+    <div class="container two-col">
+      <div><p class="eyebrow" data-i18n="aboutEyebrow">ALÉM DO CÓDIGO</p><h2 data-i18n="aboutTitle">Curiosidade por tecnologia e paixão pela estrada.</h2></div>
+      <div class="prose"><p data-i18n="aboutP1">Tenho interesse por tecnologia, inteligência artificial e automação, principalmente quando essas áreas são aplicadas para resolver problemas reais, simplificar processos e criar soluções úteis no dia a dia. Também gosto de desenvolver projetos próprios como forma de aprender, testar novas ideias e evoluir tecnicamente de maneira prática.</p><p data-i18n="aboutP2">Fora da tecnologia, sou apaixonado por carros e passo um bom tempo cuidando do meu próprio carro, acompanhando manutenção e pensando em melhorias. Também gosto muito de viajar, especialmente de carro. Para mim, pegar a estrada traz uma sensação de liberdade, permite conhecer novos lugares e cria bons momentos de lazer com a família.</p></div>
+    </div>
+  </section>
+
+  <section class="section cta-section">
+    <div class="container cta-card">
+      <div><p class="eyebrow" data-i18n="ctaEyebrow">OPORTUNIDADES</p><h2 data-i18n="ctaTitle">Busco minha próxima oportunidade remota em tecnologia.</h2><p data-i18n="ctaText">Tenho interesse em Desenvolvimento de Software e em Dados/BI, especialmente em posições onde software, SQL, analytics e automação se conectem para resolver problemas reais.</p></div>
+      <div class="cta-actions"><a class="button" href="curriculo.html" data-i18n="cta1">Abrir currículo</a><a class="button button-outline" href="mailto:ernanisilveira19@gmail.com" data-i18n="cta2">Contato</a></div>
+    </div>
+  </section>
+</main>
+<footer class="footer"><div class="container footer-wrap"><p>© <span id="year"></span> Ernani Silveira</p><p data-i18n="footer">Desenvolvimento de Software • Dados & BI • Automação</p></div></footer>
+<script src="script.js"></script>
 </body>
 </html>
