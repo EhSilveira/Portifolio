@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/dev", "destination": "/dev.html" },
+    { "source": "/dados", "destination": "/dados.html" },
+    { "source": "/curriculo-dev", "destination": "/curriculo.html" },
+    { "source": "/curriculo-dados", "destination": "/curriculo-dados.html" }
+  ]
+}
