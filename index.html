@@ -82,10 +82,10 @@
       <div class="container">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">PROJETOS</p>
+            <p class="eyebrow">PROJETOS REAIS</p>
             <h2>Software aplicado a problemas reais.</h2>
           </div>
-          <p>Os projetos abaixo foram escolhidos pelo valor técnico e pela capacidade de demonstrar arquitetura, regras de negócio e desenvolvimento de aplicações completas.</p>
+          <p>Produtos desenvolvidos para uso real. Por segurança e propriedade intelectual, o código-fonte dos produtos permanece privado; os links abaixo direcionam apenas para os ambientes públicos de produção.</p>
         </div>
 
         <article class="project project-featured">
@@ -94,29 +94,31 @@
               <div class="project-meta">
                 <span class="pill">Projeto principal</span>
                 <span class="pill pill-muted">SaaS Multiempresa</span>
+                <span class="pill pill-muted">Em produção</span>
               </div>
               <h3>PedidosPro</h3>
-              <p class="project-subtitle">ERP para restaurantes, delivery e salão</p>
-              <p>Aplicação SaaS multiempresa para centralizar operação de restaurantes, com pedidos, cardápio digital, comandas, clientes, fidelidade, estoque, financeiro, entregadores, cupons e integrações.</p>
+              <p class="project-subtitle">ERP SaaS para restaurantes, delivery e salão</p>
+              <p><strong>Dor que resolve:</strong> restaurantes frequentemente operam pedidos, salão, cardápio, clientes, estoque e financeiro em ferramentas separadas ou processos manuais. O PedidosPro centraliza a operação em uma única aplicação.</p>
+              <p><strong>Solução:</strong> gestão de pedidos e produção, cardápio digital, comandas e mesas, clientes e fidelidade, estoque, financeiro, entregadores, cupons, promoções, relatórios e estrutura para integrações externas.</p>
+              <div class="tags"><span>React 18</span><span>TypeScript</span><span>Vite</span><span>Supabase</span><span>PostgreSQL</span><span>Realtime</span><span>RLS</span></div>
               <ul class="check-list">
-                <li>React 18 + TypeScript + Vite</li>
-                <li>Supabase Auth, PostgreSQL, Realtime e RLS</li>
-                <li>Arquitetura multiempresa com isolamento de dados</li>
-                <li>Fluxos de pedidos, cardápio, comandas e gestão</li>
-                <li>Integrações e deploy contínuo</li>
+                <li><strong>Frontend:</strong> React + TypeScript com React Router.</li>
+                <li><strong>Backend/BaaS:</strong> Supabase Auth, APIs e recursos Realtime.</li>
+                <li><strong>Dados:</strong> PostgreSQL com Row Level Security para isolamento multiempresa.</li>
+                <li><strong>Arquitetura:</strong> SaaS multi-tenant baseado em company_id e autorização no banco.</li>
+                <li><strong>Entrega:</strong> versionamento Git, validações de TypeScript/build e deploy contínuo na Vercel.</li>
               </ul>
               <div class="project-links">
-                <a class="button button-sm" href="https://pedidospro.useinfotec.com.br" target="_blank" rel="noreferrer">Abrir produção ↗</a>
-                <a class="text-link" href="https://github.com/EhSilveira/PedidosPro" target="_blank" rel="noreferrer">Repositório ↗</a>
+                <a class="button button-sm" href="https://pedidospro.useinfotec.com.br" target="_blank" rel="noreferrer">Ver produto em produção ↗</a>
               </div>
             </div>
             <div class="architecture-card" aria-label="Arquitetura simplificada do PedidosPro">
               <p class="mini-label">ARQUITETURA</p>
               <div class="arch-node">React + TypeScript</div>
               <div class="arch-arrow">↓</div>
-              <div class="arch-node">Supabase Auth + APIs</div>
+              <div class="arch-node">Supabase Auth + APIs + Realtime</div>
               <div class="arch-arrow">↓</div>
-              <div class="arch-node">PostgreSQL + RLS</div>
+              <div class="arch-node">PostgreSQL + RLS Multi-tenant</div>
               <div class="arch-arrow">↓</div>
               <div class="arch-node">Vercel / Produção</div>
             </div>
@@ -125,27 +127,33 @@
 
         <div class="projects-grid">
           <article class="project-card">
-            <span class="pill pill-muted">SaaS</span>
+            <div class="project-meta"><span class="pill pill-muted">SaaS</span><span class="pill pill-muted">Em produção</span></div>
             <h3>InfoLavagem</h3>
-            <p>Sistema multiempresa para lava-rápidos, estética automotiva, detalhamento e gestão de frotas.</p>
-            <div class="tags"><span>Supabase</span><span>PostgreSQL</span><span>RLS</span><span>Auth</span></div>
-            <p class="text-muted">Clientes, serviços, agenda, funcionários, financeiro, comissões, relatórios e painel administrativo.</p>
+            <p><strong>Dor:</strong> lava-rápidos e operações de estética automotiva precisam controlar agenda, clientes, serviços, equipe, comissões e financeiro sem depender de planilhas e mensagens dispersas.</p>
+            <p><strong>Solução:</strong> plataforma multiempresa com dashboard, clientes, serviços, agendamentos, funcionários, adiantamentos, financeiro, comissões, cupons, usuários, relatórios e painel administrativo.</p>
+            <div class="tags"><span>Next.js 16</span><span>React 19</span><span>TypeScript</span><span>Supabase</span><span>PostgreSQL</span><span>RLS</span></div>
+            <p class="text-muted"><strong>Arquitetura:</strong> frontend e camada web em Next.js, autenticação e backend no Supabase, dados isolados por organização através de RLS e deploy na Vercel.</p>
+            <div class="project-links"><a class="button button-sm" href="https://infolavagem.useinfotec.com.br" target="_blank" rel="noreferrer">Ver produto em produção ↗</a></div>
           </article>
 
           <article class="project-card">
-            <span class="pill pill-muted">Operações</span>
+            <div class="project-meta"><span class="pill pill-muted">Operações de campo</span><span class="pill pill-muted">Pré-produção</span></div>
             <h3>OS Campo</h3>
-            <p>Aplicação orientada à gestão de ordens de serviço, clientes e equipes que executam atividades externas.</p>
-            <div class="tags"><span>Web App</span><span>CRUD</span><span>Fluxos</span><span>Banco</span></div>
-            <p class="text-muted">Foco em regras de negócio, acompanhamento operacional e produtividade em campo.</p>
+            <p><strong>Dor:</strong> técnicos autônomos e equipes externas ainda registram clientes, serviços, valores, fotos e evidências em papel, WhatsApp ou ferramentas desconectadas.</p>
+            <p><strong>Solução:</strong> aplicação mobile-first para criar ordens de serviço profissionais pelo celular, incluindo itens, valores, observações, fotos antes/depois, pré-visualização, compartilhamento e impressão/PDF.</p>
+            <div class="tags"><span>TypeScript</span><span>Cloudflare Workers</span><span>Wrangler</span><span>APIs</span><span>Mobile-first</span></div>
+            <p class="text-muted"><strong>Arquitetura:</strong> aplicação web leve com backend serverless em Cloudflare Workers, endpoints de health/checkout/pagamento/analytics e validações automatizadas antes do deploy.</p>
+            <p class="text-muted">Ambiente público será adicionado aqui quando o produto concluir o gate de produção.</p>
           </article>
 
           <article class="project-card">
-            <span class="pill pill-muted">Dashboard</span>
+            <div class="project-meta"><span class="pill pill-muted">Hub operacional</span><span class="pill pill-muted">Em produção</span></div>
             <h3>ICN-HUB</h3>
-            <p>Hub operacional com dashboards e estrutura web para centralizar indicadores, informações e rotinas.</p>
-            <div class="tags"><span>React</span><span>TypeScript</span><span>Dashboards</span><span>APIs</span></div>
-            <p class="text-muted">Projeto utilizado para exercitar integrações, componentes de interface e organização de dados.</p>
+            <p><strong>Dor:</strong> informações operacionais, indicadores e rotinas distribuídas em fontes diferentes tornam acompanhamento e tomada de decisão mais lentos.</p>
+            <p><strong>Solução:</strong> hub web com dashboards, componentes operacionais e organização centralizada de informações, oferecendo uma visão única para acompanhamento do negócio.</p>
+            <div class="tags"><span>React 19</span><span>TypeScript</span><span>TanStack Start</span><span>TanStack Query</span><span>Supabase</span><span>Recharts</span><span>Tailwind CSS</span></div>
+            <p class="text-muted"><strong>Arquitetura:</strong> React sobre TanStack Start/Router, gerenciamento assíncrono com TanStack Query, Supabase como camada de dados e serviços, componentes Radix/Tailwind e deploy na Vercel.</p>
+            <div class="project-links"><a class="button button-sm" href="https://icnhub.useinfotec.com.br" target="_blank" rel="noreferrer">Ver produto em produção ↗</a></div>
           </article>
         </div>
       </div>
@@ -197,10 +205,10 @@
         <p class="eyebrow">STACK</p>
         <h2>Tecnologias que fazem parte da minha rotina.</h2>
         <div class="stack-grid">
-          <article><h3>Frontend</h3><p>React, TypeScript, JavaScript, HTML5, CSS3, Vite, React Router</p></article>
-          <article><h3>Backend & Dados</h3><p>Supabase, PostgreSQL, SQL, Auth, RLS, Realtime, APIs REST, Python</p></article>
-          <article><h3>DevOps & Automação</h3><p>Git, GitHub, Vercel, Cloudflare Workers, n8n, Jenkins, AWS</p></article>
-          <article><h3>Analytics</h3><p>Power BI, DAX, Power Query, ETL, modelagem dimensional e indicadores</p></article>
+          <article><h3>Frontend</h3><p>React, TypeScript, JavaScript, HTML5, CSS3, Next.js, Vite, React Router e TanStack.</p></article>
+          <article><h3>Backend & Dados</h3><p>Supabase, PostgreSQL, SQL, Auth, RLS, Realtime, APIs REST, Cloudflare Workers e Python.</p></article>
+          <article><h3>DevOps & Automação</h3><p>Git, GitHub, Vercel, Cloudflare Workers/Wrangler, n8n, Jenkins e AWS.</p></article>
+          <article><h3>Analytics</h3><p>Power BI, DAX, Power Query, ETL, modelagem dimensional e indicadores.</p></article>
         </div>
       </div>
     </section>
