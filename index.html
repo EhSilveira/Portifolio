@@ -5,9 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Portfólio de Ernani Silveira — Desenvolvimento de Software, Dados, BI e Automação." />
   <meta name="theme-color" content="#08111f" />
+  <link rel="canonical" href="https://portfolio.useinfotec.com.br/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:title" content="Ernani Silveira | Software • Data & BI" />
+  <meta property="og:description" content="Cases de software, Dados/BI e automação com foco em problemas reais de negócio." />
+  <meta property="og:url" content="https://portfolio.useinfotec.com.br/" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Ernani Silveira | Software • Data & BI" />
+  <meta name="twitter:description" content="Cases de software, Dados/BI e automação." />
   <title>Ernani Silveira | Software • Data & BI</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="tracks.css" />
 </head>
 <body>
 <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
@@ -38,7 +48,8 @@
         <p class="hero-title" data-i18n="heroTitle">Desenvolvimento de Software • Dados & BI</p>
         <p class="hero-copy" data-i18n="heroCopy">Profissional de tecnologia com experiência corporativa desde 2021 e atuação prática em <strong>SQL, Power BI, Python, modelagem de dados, automação e desenvolvimento de aplicações SaaS</strong>. Uma base técnica única para transformar problemas de negócio em dados, processos e software.</p>
         <div class="hero-actions">
-          <a class="button" href="#perfil" data-i18n="heroCta1">Conhecer meu perfil</a>
+          <a class="button" href="#projetos">Ver cases de Software</a>
+          <a class="button button-outline" href="#dados">Ver cases de Dados & BI</a>
           <a class="button button-outline" href="curriculo.html" data-i18n="heroCta2">Ver currículo</a>
         </div>
         <div class="social-links">
@@ -86,6 +97,24 @@
         <article class="focus-card"><h3 data-i18n="focus3Title">ETL & ingestão</h3><p data-i18n="focus3Text">Extração via API, tratamento de dados, ETL e ingestão em banco de dados conforme padrões internos.</p></article>
         <article class="focus-card"><h3 data-i18n="focus4Title">Automação comercial</h3><p data-i18n="focus4Text">Fluxos com n8n cobrindo entrada de leads, onboarding, atualizações de status e liberação de acesso à plataforma.</p></article>
       </div>
+      <div class="data-cases" aria-label="Cases demonstrativos de Dados e BI">
+        <article class="data-case">
+          <span class="pill">Case BI • Dados sintéticos</span>
+          <h3>Safra, pagamentos e inadimplência</h3>
+          <p><strong>Problema:</strong> transformar dados transacionais de contratos e parcelas em uma leitura gerencial de vencimentos, pagamentos, atraso e maturação.</p>
+          <p><strong>Abordagem:</strong> SQL para preparação e regras de negócio, modelo dimensional, medidas DAX e visualização por safra/coorte.</p>
+          <p><strong>Validação:</strong> reconciliação entre totais, filtros de período e motivos de inadimplência antes da publicação dos indicadores.</p>
+          <p class="case-note">Demonstração baseada em experiência profissional, usando estrutura e exemplos sintéticos/anônimos — sem dados confidenciais de empregadores.</p>
+        </article>
+        <article class="data-case">
+          <span class="pill">Case ETL • Dados demonstrativos</span>
+          <h3>API → Python → PostgreSQL → Power BI</h3>
+          <p><strong>Problema:</strong> consolidar dados de fontes diferentes de forma repetível e auditável.</p>
+          <p><strong>Abordagem:</strong> extração via API, transformação e validação em Python, carga incremental em PostgreSQL e camada analítica para Power BI.</p>
+          <p><strong>Resultado técnico:</strong> pipeline reproduzível, separação entre ingestão e consumo analítico e base preparada para monitoramento de qualidade.</p>
+          <p class="case-note">Case demonstrativo; não representa métricas ou informações internas de uma empresa específica.</p>
+        </article>
+      </div>
     </div>
   </section>
 
@@ -113,9 +142,9 @@
         <p data-i18n="projectsLead">Os produtos possuem código-fonte privado por segurança e propriedade intelectual. O portfólio apresenta a dor, solução, tecnologias, arquitetura e somente os ambientes públicos de produção.</p>
       </div>
       <div class="projects-grid">
-        <article class="case-light"><span class="pill">SaaS • Produção</span><h3>PedidosPro</h3><p><strong>Dor:</strong> restaurantes operam pedidos, salão, cardápio, clientes, estoque e financeiro em processos separados.</p><p><strong>Solução:</strong> ERP SaaS multiempresa que centraliza operação, pedidos, comandas, cardápio digital, clientes, estoque, financeiro e relatórios.</p><div class="tags"><span>React 18</span><span>TypeScript</span><span>Supabase</span><span>PostgreSQL</span><span>RLS</span></div><p><strong>Arquitetura:</strong> React/TypeScript → Supabase Auth/APIs/Realtime → PostgreSQL com RLS multi-tenant → Vercel.</p><a class="text-link-dark" href="https://pedidospro.useinfotec.com.br" target="_blank" rel="noreferrer">Ver produto em produção ↗</a></article>
-        <article class="case-light"><span class="pill">SaaS • Produção</span><h3>InfoLavagem</h3><p><strong>Dor:</strong> lava-rápidos e estética automotiva precisam controlar agenda, clientes, serviços, equipe, comissões e financeiro sem depender de planilhas e mensagens.</p><p><strong>Solução:</strong> plataforma multiempresa para clientes, serviços, agendamentos, funcionários, financeiro, comissões e relatórios.</p><div class="tags"><span>Next.js</span><span>React</span><span>TypeScript</span><span>Supabase</span><span>PostgreSQL</span></div><p><strong>Arquitetura:</strong> Next.js → Supabase Auth/Backend → PostgreSQL com isolamento por organização → Vercel.</p><a class="text-link-dark" href="https://infolavagem.useinfotec.com.br" target="_blank" rel="noreferrer">Ver produto em produção ↗</a></article>
-        <article class="case-light"><span class="pill">Hub • Produção</span><h3>ICN-HUB</h3><p><strong>Dor:</strong> informações operacionais e indicadores dispersos dificultam acompanhamento e tomada de decisão.</p><p><strong>Solução:</strong> hub web para centralizar informações, dashboards e rotinas em uma visão única.</p><div class="tags"><span>React 19</span><span>TypeScript</span><span>TanStack</span><span>Supabase</span><span>Recharts</span></div><p><strong>Arquitetura:</strong> TanStack Start/Router/Query → Supabase → componentes de visualização → Vercel.</p><a class="text-link-dark" href="https://icnhub.useinfotec.com.br" target="_blank" rel="noreferrer">Ver produto em produção ↗</a></article>
+        <article class="case-light"><span class="pill">SaaS • Produção</span><h3>PedidosPro</h3><p><strong>Contexto:</strong> operação de restaurantes e delivery com pedidos, produção, clientes, estoque e financeiro em fluxos que precisam conversar.</p><p><strong>Desafio:</strong> reduzir controles paralelos e manter isolamento entre empresas sem perder agilidade operacional.</p><p><strong>Contribuição:</strong> evolução de produto, regras de negócio, experiência responsiva, integrações e arquitetura multiempresa.</p><div class="tags"><span>React</span><span>TypeScript</span><span>Supabase</span><span>PostgreSQL</span><span>RLS</span></div><p><strong>Arquitetura:</strong> frontend web → autenticação/APIs → PostgreSQL multi-tenant com RLS → integrações e deploy contínuo.</p><p><strong>Resultado:</strong> produto funcional em produção, com jornada integrada do pedido à gestão e evolução guiada por validação comercial.</p><a class="text-link-dark" href="https://pedidospro.useinfotec.com.br" target="_blank" rel="noreferrer">Ver produto em produção ↗</a></article>
+        <article class="case-light"><span class="pill">SaaS • Produção</span><h3>InfoLavagem</h3><p><strong>Contexto:</strong> lava-rápidos, estética automotiva e operações correlatas precisam acompanhar clientes, veículos, serviços, equipe e caixa.</p><p><strong>Desafio:</strong> unificar agenda, atendimento e financeiro sem quebrar compatibilidade com uma base técnica já existente.</p><p><strong>Contribuição:</strong> modelagem do produto, evolução full stack, PWA/responsividade, autenticação e padronização da marca.</p><div class="tags"><span>Next.js</span><span>React</span><span>TypeScript</span><span>Supabase</span><span>PostgreSQL</span></div><p><strong>Arquitetura:</strong> Next.js → Supabase Auth/Backend → PostgreSQL com isolamento por organização → Vercel.</p><p><strong>Resultado:</strong> experiência operacional consolidada em produção, preservando identificadores legados enquanto a interface adota a identidade InfoLavagem.</p><a class="text-link-dark" href="https://infolavagem.useinfotec.com.br" target="_blank" rel="noreferrer">Ver produto em produção ↗</a></article>
+        <article class="case-light"><span class="pill">Ecossistema • Produção</span><h3>ICN-HUB</h3><p><strong>Contexto:</strong> profissionais, estudantes e instituições da Nutrição encontram conteúdo, eventos, mentorias e oportunidades em canais dispersos.</p><p><strong>Desafio:</strong> reunir comunidade, conteúdo e transações em um produto coerente, seguro e responsivo.</p><p><strong>Contribuição:</strong> evolução de produto, UX, integrações, fluxo de aquisição, padronização de marca e automações do ecossistema.</p><div class="tags"><span>React</span><span>TypeScript</span><span>TanStack</span><span>Supabase</span><span>Recharts</span></div><p><strong>Arquitetura:</strong> aplicação web → TanStack → Supabase dedicado → integrações de conteúdo/pagamento → Vercel.</p><p><strong>Resultado:</strong> ecossistema gratuito em produção, usado como canal de comunidade, validação e distribuição para novas soluções.</p><a class="text-link-dark" href="https://icnhub.useinfotec.com.br" target="_blank" rel="noreferrer">Ver produto em produção ↗</a></article>
       </div>
     </div>
   </section>
