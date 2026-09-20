@@ -1,22 +1,39 @@
 # Portfólio — Ernani Silveira
 
-Portfólio profissional direcionado a oportunidades de **Desenvolvedor Full Stack Júnior**, com ênfase em React, TypeScript, Supabase, PostgreSQL, SQL, Python e experiência prévia em BI/dados.
+Portfólio profissional com duas trilhas visíveis: **Desenvolvimento de Software** e **Dados & BI**, apoiadas por automação e integrações.
 
 ## Estrutura
 
-- `index.html` — página principal do portfólio
-- `styles.css` — estilos responsivos e acessíveis
-- `script.js` — atualização automática do ano no rodapé
-- `curriculo.html` — currículo web pronto para recrutadores, otimizado para impressão/PDF
-- `favicon.svg` — favicon do site
+- `index.html` — página principal e cases;
+- `styles.css` — base visual;
+- `tracks.css` — trilhas, cases e responsividade complementar;
+- `script.js` — idioma e comportamento;
+- `curriculo.html` — currículo web;
+- `favicon.svg` — favicon;
+- `robots.txt` e `sitemap.xml` — SEO técnico.
 
-## Projetos em destaque
+## Cases principais de software
 
-- PedidosPro — ERP SaaS multiempresa para restaurantes
-- InfoLavagem — SaaS para estética automotiva e frotas
-- OS Campo — gestão de ordens de serviço e equipes externas
-- ICN-HUB — hub operacional e dashboards
+- **PedidosPro** — SaaS multiempresa para restaurantes e delivery;
+- **InfoLavagem** — SaaS para operações de lavagem/estética automotiva;
+- **ICN-HUB** — ecossistema de conteúdo, eventos, mentorias e oportunidades.
+
+Os cases públicos apresentam contexto, desafio, contribuição, arquitetura e resultados qualitativos verificáveis. Métricas comerciais não são inventadas.
+
+## Dados & BI
+
+O portfólio inclui cases demonstrativos com dados sintéticos/anônimos para mostrar:
+
+- SQL e regras de negócio;
+- Power BI, DAX e análises por safra/coorte;
+- ETL com Python e APIs;
+- PostgreSQL e modelagem;
+- validação e reconciliação de indicadores.
+
+Nenhum dado confidencial de empregadores é publicado.
 
 ## Publicação
 
-O projeto é estático e pode ser publicado diretamente no GitHub Pages ou Vercel sem etapa de build.
+Arquitetura estática mantida por simplicidade e estabilidade. Não há necessidade de migrar para framework enquanto o conteúdo e a proposta profissional ainda estiverem em evolução.
+
+Domínio canônico atual: **https://portfolio.useinfotec.com.br**.
